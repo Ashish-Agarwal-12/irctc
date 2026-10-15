@@ -1,8 +1,35 @@
-# Ignore Gradle project-specific cache directory
-.gradle
-
-# Ignore Gradle build output directory
-build
+# Gradle
+.gradle/
+build/
+**/build/
 
 # Ignore Kotlin plugin data
-.kotlin
+.kotlin/
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Compiled / packaged
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+
+# Keep the Gradle wrapper JAR
+!gradle/wrapper/gradle-wrapper.jar
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Obsolete local DB copies under source packages (canonical data is in resources/localDb)
+app/src/main/java/ticket/booking/localDb/
+app/src/main/java/ticket/booking/localdb/

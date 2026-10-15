@@ -1,0 +1,38 @@
+[ {
+  "name" : "Ashish Agarwal",
+  "password" : "12345",
+  "hashed_password" : "$2a$10$SJs6jNaUuR6JiLG3Prs.ge1BQHDQPDkVdPAMcMyAN2A3Cn5X1PKWy",
+  "tickets_booked" : [ {
+    "ticket_id" : "your_ticket_id",
+    "user_id" : "abcdefgh",
+    "source" : "bangalore",
+    "destination" : "delhi",
+    "date_of_travel" : "2023-12-08T18:30:00Z",
+    "train" : {
+      "train_id" : "bacs",
+      "train_no" : "12345",
+      "seats" : [ [ 0, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 0, 0 ] ],
+      "station_times" : {
+        "bangalore" : "13:50:00",
+        "jaipur" : "13:50:00",
+        "delhi" : "13:50:00"
+      },
+      "stations" : [ "bangalore", "jaipur", "delhi" ]
+    },
+    "seat_row" : 0,
+    "seat_col" : 0
+  } ],
+  "user_id" : "abcdefgh"
+}, {
+  "name" : "rahul",
+  "password" : "hhbb11",
+  "hashed_password" : "$2a$10$O/OWE.xh3gttMANiM4BIX.mo.4/myik1J739DZ25ecVENk8xhMCW2",
+  "tickets_booked" : [ ],
+  "user_id" : "fe46da4d-c8d1-4229-97e6-600dce6941e8"
+}, {
+  "name" : "Ashish Ku Agarwal",
+  "password" : "12345678 ",
+  "hashed_password" : "$2a$10$t41QqNlaHzlGOaosulnZze9nmYe9c3iKZqP.z79/mPz1akZcUEgoi",
+  "tickets_booked" : [ ],
+  "user_id" : "f0a7dcd1-59bc-469c-b8ae-833132dd9043"
+} ]
